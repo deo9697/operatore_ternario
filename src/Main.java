@@ -8,9 +8,6 @@ public class Main {
 
     private static String checkValue(int value) {
 
-
-         String result = (value % 5 == 0) ? "FizzBuzz" : "Buzz";
-        return result;
+        return (value % 5 == 0) ? "FizzBuzz" : "Buzz";
     }
-
 }
